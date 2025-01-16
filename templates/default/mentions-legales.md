@@ -5,19 +5,19 @@ description: Mentions légales par défaut pour les startups
 variables:
   nom_produit: Nom du produit
   nom_editeur: Nom de l'éditeur
-  adresse_editeur: Adresse de l'éditeur
+  addresse_editeur: Adresse de l'éditeur
   telephone_editeur: Téléphone de l'éditeur
   email_editeur: Email de l'éditeur
   directeur_publication: Nom du directeur de la publication
   nom_hebergeur: Nom de l'hébergeur
-  adresse_herbergeur: Adresse de l'hébergeur
+  addresse_herbergeur: Adresse de l'hébergeur
 ---
 # Mentions légales de {{nom_produit}}
 
 ## Editeur de la Plateforme
 La Plateforme **{{nom_produit}}** est éditée par {{nom_editeur}} situé :
 <address>
-    {{ adresse_editeur }}
+    {{ addresse_editeur }}
     <br/>
     <a href="tel:{{ telephone_editeur }}">{{ telephone_editeur }}</a>
     <br/>
@@ -30,7 +30,7 @@ La Plateforme **{{nom_produit}}** est éditée par {{nom_editeur}} situé :
 ## Hébergement de la Plateforme
 Ce site est hébergé en propre par {{ nom_hebergeur}} :
 <br />
-<address>{{ adresse_herbergeur }}</address>
+<address>{{ addresse_herbergeur }}</address>
 
 ## Accessibilité
 La conformité aux normes d’accessibilité numérique est un objectif ultérieur mais nous tâchons de rendre ce site accessible à toutes et à tous.
